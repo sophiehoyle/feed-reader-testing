@@ -82,8 +82,7 @@ $(function() {
           /* Two feeds are now loaded, check that the html content of each feed
           are different */
            it('feed section has been loaded and is different', function() {
-             expect(firstFeed).notToBe(secondFeed);
+             expect(firstFeed).not.toBe(secondFeed);
            });
          });
-       });
 }());
